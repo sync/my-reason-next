@@ -1,0 +1,11 @@
+node_modules
+*.log
+.cache
+.next
+coverage
+.DS_Store
+.merlin
+/lib/*
+!/lib/js/*
+/bundledOutputs/
+.bsb.lock
