@@ -14,11 +14,6 @@ function Header(Props) {
                   children: React.createElement("a", {
                         style: styles
                       }, "Home")
-                }), React.createElement(Link.default, {
-                  href: "/about",
-                  children: React.createElement("a", {
-                        style: styles
-                      }, "About")
                 }));
 }
 
