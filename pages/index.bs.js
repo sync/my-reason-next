@@ -4,12 +4,11 @@
 var Curry = require("bs-platform/lib/js/curry.js");
 var React = require("react");
 var Header = require("../components/Header.bs.js");
-var Counter = require("../components/Counter.bs.js");
 var Pervasives = require("bs-platform/lib/js/pervasives.js");
 
 function Index(Props) {
   var onServer = Props.onServer;
-  return React.createElement("div", undefined, React.createElement(Header.make, { }), React.createElement("p", undefined, "HOME PAGE is here!"), React.createElement("p", undefined, "onServer: " + Pervasives.string_of_bool(onServer)), React.createElement(Counter.make, { }));
+  return React.createElement("div", undefined, React.createElement(Header.make, { }), React.createElement("p", undefined, "HOME PAGE is here!"), React.createElement("p", undefined, "onServer: " + Pervasives.string_of_bool(onServer)));
 }
 
 function getInitialProps(context) {
