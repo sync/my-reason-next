@@ -63,8 +63,6 @@ let getInitialProps = _ctx => {
   );
 };
 
-type ctx = {nothing: string};
-
 let inject:
   (
     Js.t('a) => React.element,
