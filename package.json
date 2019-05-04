@@ -6,6 +6,7 @@
     "dev:reason": "bsb -clean-world -make-world -w",
     "dev:next": "next dev",
     "build": "bsb -clean-world -make-world && next build",
+    "build:reason": "bsb -make-world",
     "start": "next start"
   },
   "license": "ISC",
